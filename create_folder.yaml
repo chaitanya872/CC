@@ -1,0 +1,7 @@
+- name: Create Folder
+  hosts: all
+  tasks:
+    - name: create folder
+      file:
+        path: /home/ansible/testfolder
+        state: directory
