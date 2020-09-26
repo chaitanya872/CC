@@ -1,0 +1,8 @@
+hosts:
+  children:
+    testcontainers:
+        hosts:
+          test1:
+            ansible_host: 10.100.101.154
+          test2:
+            ansible_host: 10.100.101.155
